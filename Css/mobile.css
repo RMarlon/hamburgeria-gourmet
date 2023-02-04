@@ -1,0 +1,85 @@
+/* Smarthphone */
+
+@media only screen and (max-width: 787px) {
+    .logo{
+        width: 150px;
+        height: 110px;
+        display: inline-block;
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+    .header {
+        box-sizing: border-box;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topo {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .topo ul li a {
+       display: flex;
+       justify-content: center;
+       margin: 0%;
+        padding: 10px;
+        bottom: 20px;
+        border: 2px solid rgb(243, 204, 110);
+        border-radius: 10px;
+        width: 190px;
+    }
+
+    /* Banner */
+
+    .banner h1 {
+        font-size: 55px;
+        margin: 10px, 0;
+    }
+
+    .banner a {
+        font-size: 17px;
+    }
+
+    h2, p {
+        top: 0%;
+        margin: 10px;
+    }
+
+
+
+    .localizacao {
+        font-size: 30px;
+    }
+
+
+    iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+    a>img {
+        width: 150px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Início Scrollbar*/
+    ::-webkit-scrollbar {
+        width: 4px;
+        background: #c43a30;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #CD5C5C;
+    }
+}
